@@ -12,8 +12,7 @@ int main()
         cin>>array[i];
 
     }
-
-
+    
     for(int a=0 ; a<15; a++)
     {
 

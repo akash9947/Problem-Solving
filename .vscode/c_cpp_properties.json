@@ -1,13 +1,19 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "intelliSenseMode": "gcc-x64"
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "intelliSenseMode": "windows-msvc-x64"
         }
     ],
     "version": 4
