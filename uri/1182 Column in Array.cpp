@@ -24,7 +24,7 @@ int main()
          sum += m[i][a];
      }
 
-    if(n=='S')
+    if(n =='S')
     {
         cout<<setprecision(1)<<fixed<<sum<<endl;
     }
