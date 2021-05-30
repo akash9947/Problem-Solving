@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    double m[12][12],sum=0.0;
+    double m[12][12], sum=0.0;
     char n;
-
+    int a=1,b=11;
     cin>>n;
 
     for(int i=0;i<12;i++)
@@ -18,22 +18,23 @@ int main()
         }
     }
 
-    for(int i=0;i<12;i++)
+    for (int i=0;i<5;i++)
     {
-        for(int j=0;j<i;j++)
+        for (int j=a;j<b;j++)
         {
-             sum +=m[i][j];       
+            sum+=m[i][j];
         }
-
+        a++;
+        b--;
     }
 
     if(n=='S')
     {
-          cout<<setprecision(1)<<fixed<<sum<<endl;
+        cout<<setprecision(1)<<fixed<<sum<<endl;
     }
-    else 
+    else
     {
-        cout<<setprecision(1)<<fixed<<sum/66.0<<endl;
-    }
+        cout<<setprecision(1)<<fixed<<sum/30.0<<endl;
 
+    }
 }

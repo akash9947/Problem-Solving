@@ -1,0 +1,16 @@
+D:\Problem-Solving\uri\bin\Debug\net5.0\uri.exe
+D:\Problem-Solving\uri\bin\Debug\net5.0\uri.deps.json
+D:\Problem-Solving\uri\bin\Debug\net5.0\uri.runtimeconfig.json
+D:\Problem-Solving\uri\bin\Debug\net5.0\uri.runtimeconfig.dev.json
+D:\Problem-Solving\uri\bin\Debug\net5.0\uri.dll
+D:\Problem-Solving\uri\bin\Debug\net5.0\ref\uri.dll
+D:\Problem-Solving\uri\bin\Debug\net5.0\uri.pdb
+D:\Problem-Solving\uri\obj\Debug\net5.0\uri.csprojAssemblyReference.cache
+D:\Problem-Solving\uri\obj\Debug\net5.0\uri.GeneratedMSBuildEditorConfig.editorconfig
+D:\Problem-Solving\uri\obj\Debug\net5.0\uri.AssemblyInfoInputs.cache
+D:\Problem-Solving\uri\obj\Debug\net5.0\uri.AssemblyInfo.cs
+D:\Problem-Solving\uri\obj\Debug\net5.0\uri.csproj.CoreCompileInputs.cache
+D:\Problem-Solving\uri\obj\Debug\net5.0\uri.dll
+D:\Problem-Solving\uri\obj\Debug\net5.0\ref\uri.dll
+D:\Problem-Solving\uri\obj\Debug\net5.0\uri.pdb
+D:\Problem-Solving\uri\obj\Debug\net5.0\uri.genruntimeconfig.cache
