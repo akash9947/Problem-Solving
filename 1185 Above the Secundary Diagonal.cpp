@@ -1,41 +1,43 @@
-#include <iostream>
+#include <iostream>.
 #include <iomanip>
 
 using namespace std;
 
 int main()
 {
-    double m[12][12],sum=0.0;
     char n;
-    int a=1;
+    double m[12][12],sum=0.0;
+
     cin>>n;
 
-    for(int i=0;i<12;i++)
+    int a=11;
+
+    for ( int i = 0; i < 12; i++)
     {
-        for(int j=0;j<12;j++)
+        for (int j = 0; j < 12; j++)
         {
             cin>>m[i][j];
         }
+        
     }
-
-    for(int i=0;i<12;i++)
+    
+    for ( int i = 0; i < 12; i++)
     {
-        for (int j=a;j<12;j++)
+        for (int j = 0; j < a; j++)
         {
-            sum+=m[i][j];
+            sum+= m[i][j];
         }
-        a++;
+        a--;
     }
 
-
-
-    if(n =='S')
+    if(n=='S')
     {
         cout<<setprecision(1)<<fixed<<sum<<endl;
     }
-    else if (n== 'M')
+    else
     {
         cout<<setprecision(1)<<fixed<<sum/66.0<<endl;
+
     }
-    return 0;
+
 }

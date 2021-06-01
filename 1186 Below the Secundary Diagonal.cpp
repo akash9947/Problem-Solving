@@ -7,7 +7,7 @@ int main()
 {
     double m[12][12],sum=0.0;
     char n;
-    int a=1;
+    int a=12;
     cin>>n;
 
     for(int i=0;i<12;i++)
@@ -24,18 +24,16 @@ int main()
         {
             sum+=m[i][j];
         }
-        a++;
+        a--;
     }
 
-
-
-    if(n =='S')
+        if(n=='S')
     {
         cout<<setprecision(1)<<fixed<<sum<<endl;
     }
-    else if (n== 'M')
+    else
     {
         cout<<setprecision(1)<<fixed<<sum/66.0<<endl;
+
     }
-    return 0;
 }
